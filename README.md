@@ -11,4 +11,12 @@ This update brings a few changes to the CR-20 Pro:
 
 ## Installation Procedure: 
 
+XLoader is a program designed to upload firmwares to your 3d printer. Download XLoader from this source: http://www.hobbytronics.co.uk/arduino-xloader
 
+1) Plug your printer into your computer
+2) Open XLoader. Configure it with the following values: 
+      - Hex File: Please download the "Cr20 Pro 3DPC Update.hex" from this repository
+      - Device: MEGA(ATMEGA2560)
+      - COM Port: The com port for your printer (should only be 1-2 there - try both if you don't have success at first)
+      - Baud Rate: 115200
+3) Press Upload.
